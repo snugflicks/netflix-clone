@@ -1,0 +1,87 @@
+/* large laptops */
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 768px) {
+  /* ======================
+       Hero
+    ====================== */
+  .hero-content {
+    width: 90%;
+  }
+  .hero-content h1 {
+    max-width: 650px;
+    font-size: 2.4rem;
+    line-height: 1.1;
+    margin-inline: auto;
+  }
+  .form-group {
+    width: 100%;
+  }
+  .form-group input {
+    width: 100%;
+    max-width: 380px;
+  }
+  .get-started-btn {
+    padding: 0 20px;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  /* ======================
+       Reasons
+    ====================== */
+
+  .reasons h2 {
+    font-size: 1.75rem;
+  }
+  .reasons-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .reason-card {
+    min-width: 0;
+    padding: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .form-group {
+    flex-direction: column;
+    align-items: center;
+    gap: 12;
+  }
+  .form-group input {
+    width: 100%;
+    max-width: none;
+  }
+  .get-started-btn {
+    width: auto;
+    min-width: 170px;
+  }
+  .hero-content h1 {
+    font-size: 2rem;
+    line-height: 1.15;
+  }
+  .reasons-grid {
+    grid-template-columns: 1fr;
+  }
+  .reason-card {
+    min-height: 230px;
+  }
+  .faq h2 {
+    font-size: 1.8rem;
+  }
+  .faq-question {
+    font-size: 1.15rem;
+  }
+  .faq-answer p {
+    font-size: 1.1rem;
+  }
+  .faq-icon {
+    font-size: 2.2rem;
+  }
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
